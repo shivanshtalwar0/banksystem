@@ -6,6 +6,10 @@ public class App {
 	Scanner scanner = new Scanner(System.in);
 	Bank bank;
 
+	App() {
+		userInterface();
+
+	}
 
 	public void userInterface() {
 		int bankchoice=-1;
